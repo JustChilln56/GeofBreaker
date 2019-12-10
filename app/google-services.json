@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390014252929",
+    "firebase_url": "https://goefbreaker.firebaseio.com",
+    "project_id": "goefbreaker",
+    "storage_bucket": "goefbreaker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390014252929:android:faff861544f8e8cb8d5a80",
+        "android_client_info": {
+          "package_name": "com.example.ponggame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390014252929-r9m92urjh9dhbu0kv29332kis3eqika3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgmYOOx-ECbJ-2V8cKgXvr0oj1sXibA8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390014252929-r9m92urjh9dhbu0kv29332kis3eqika3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

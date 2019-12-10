@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PongGame</string>
+    <string name="exit">Exit</string>
+</resources>
