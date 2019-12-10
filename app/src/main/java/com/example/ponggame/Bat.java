@@ -10,18 +10,20 @@ class Bat {
     private float mXCoord;
     private float mBatSpeed;
     private int mScreenX;
+    private float scale;
     final int STOPPED = 0;
     final int LEFT = 1;
     final int RIGHT = 2;
     private boolean batChanged = false;
     private int counter = 0;
 
-    private RectF oldRect;
-
     // Keeps track of if and how the ball is moving
     private int mBatMoving = STOPPED;
 
     Bat(int sx, int sy){
+
+        scale = 0.5f;
+
         // Bat needs to know the screen
         // horizontal resolution
         // Outside of this method
@@ -39,8 +41,8 @@ class Bat {
         // off the bottom of the screen
         float mYCoord = sy - height;
         // Initialize mRect based on the size and position
-        mRect = new RectF(mXCoord, mYCoord,
-                mXCoord + mLength,
+        mRect = new RectF(mXCoord - mLength * scale, mYCoord,
+                mXCoord + mLength * scale,
                 mYCoord + height);
         // Configure the speed of the bat
         // This code means the bat can cover the
@@ -66,40 +68,41 @@ class Bat {
         if(mBatMoving == RIGHT){
             mXCoord = mXCoord + mBatSpeed / fps;
         }
+
         // Stop the bat going off the screen
-        if(mXCoord < 0){
-            mXCoord = 0;
-        } else if(mXCoord + mLength > mScreenX){
-            mXCoord = mScreenX - mLength;
+        if(mXCoord - mLength* scale < 0){
+            mXCoord = mLength*scale;
+        } else if(mXCoord + mLength * scale > mScreenX){
+            mXCoord = mScreenX - mLength*scale;
         }
         // Update mRect based on the results from
         // the previous code in update
-        mRect.left = mXCoord;
-        mRect.right = mXCoord + mLength;
+        mRect.left = mXCoord - mLength* scale;
+        mRect.right = mXCoord + mLength * scale;
+
         if (batChanged) {
-            mRect.right = mXCoord + mLength * 2f;
             counter++;
             if (counter > 500) {
                 batChanged = false;
+                scale = 0.5f;
                 counter = 0;
             }
         }
 
     }
-     void reset(int x, int y) {
+    void reset(int x, int y) {
         float height = 30;
         mXCoord = x / 2;
         float yc = y - 30;
         mRect = new RectF(x, yc, x + mLength, yc + height);
-     }
+    }
 
-     public void changeBat(int x, int y) {
-         float height = 30;
-         float yc = y - 30;
-         mRect = new RectF(mXCoord, yc, mXCoord + (mLength * 2f), yc + height);
-         oldRect = new RectF(mXCoord, yc, mXCoord + mLength, yc + height);
-         batChanged = true;
-         counter = 0;
-     }
+    public void changeBat(int x, int y) {
+        float height = 30;
+        float yc = y - 30;
+        scale = 1f;
+        mRect = new RectF(mXCoord - mLength * scale, yc, mXCoord + mLength * scale, yc + height);
+        batChanged = true;
+    }
 
 }

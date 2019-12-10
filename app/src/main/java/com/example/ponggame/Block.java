@@ -16,7 +16,7 @@ public class Block {
     private String type;
 
     //Constructor
-    Block(int row, int col, int width, int height, Context context){
+    Block(int row, int col, int width, int height, Context context) {
         isVisible = true;
         this.padding = 2;
         this.row = row;
@@ -28,8 +28,14 @@ public class Block {
 
         if (Math.random() * 100 <= 10) {
             type = "large";
-            paint.setColor(Color.argb(255,  253, 253, 150));
+            paint.setColor(Color.argb(255, 253, 253, 150));
 
+        } else if (Math.random() * 500 <= 10) {
+            type = "health";
+            paint.setColor(Color.argb(255, 153, 0, 0));
+        } else if (Math.random() * 500 <= 10) {
+            type = "huge";
+            paint.setColor(Color.argb(255, 0, 0, 0));
         } else {
             type = "nothing";
             paint.setColor(Color.argb(255,  249, 129, 0));

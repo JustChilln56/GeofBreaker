@@ -161,19 +161,24 @@ class PongGame extends SurfaceView implements Runnable {
         if (counter == 500) {
             mWidth = mScreenX / 7;
             mHeight = mScreenY / 10;
+            if (mBlock.size() >= 7) {
+                for(int column = 0; column < 7; column ++) {
+                    mBlock.add(mBlock.get(mBlock.size() - 7));
+                    mBlock.get(mBlock.size() - 1).increaseRow();
+                }
 
-            for(int column = 0; column < 7; column ++) {
-                mBlock.add(mBlock.get(mBlock.size() - 7));
-                mBlock.get(mBlock.size() - 1).increaseRow();
-            }
+                for(int index = mBlock.size() - 8; index > 6; index--) {
+                    mBlock.set(index, mBlock.get(index - 7));
+                    mBlock.get(index).increaseRow();
+                }
 
-            for(int index = mBlock.size() - 8; index > 6; index--) {
-                mBlock.set(index, mBlock.get(index - 7));
-                mBlock.get(index).increaseRow();
-            }
-
-            for(int column = 0; column < 7; column ++) {
-                mBlock.set(column, new Block(0, column, mWidth, mHeight, getContext()));
+                for(int column = 0; column < 7; column ++) {
+                    mBlock.set(column, new Block(0, column, mWidth, mHeight, getContext()));
+                }
+            } else {
+                for (int column = 0; column < 7; column++) {
+                    mBlock.add(column, new Block(0, column, mWidth, mHeight, getContext()));
+                }
             }
             counter = 0;
         }
@@ -190,6 +195,12 @@ class PongGame extends SurfaceView implements Runnable {
                     if (mBlock.get(i).getType().equals("large")) {
                         mBat.changeBat(mScreenX, mScreenY);
                     }
+                    if (mBlock.get(i).getType().equals("health")) {
+                        mLives = mLives + 1;
+                    }
+                    if (mBlock.get(i).getType().equals("huge")) {
+                        mBlock.clear();
+                    }
 
                     mBall.reverseYVelocity();
                     //Bitmap bitmap = ((Bitmap) R.drawable.geof).getBitmap();
@@ -203,9 +214,11 @@ class PongGame extends SurfaceView implements Runnable {
         // bat hits ball
         if(RectF.intersects(mBat.getRect(), mBall.getRect())) {
             //bounce
+            mBall.getRect().top = mBat.getRect().top - mScreenX / 100 - 1;
+            mBall.getRect().bottom = mBat.getRect().top - 1;
             mBall.setRandomXVelocity();
             mBall.reverseYVelocity();
-            if (ballSpeedCounter > 2500) {
+            if (ballSpeedCounter > 2000) {
                 mBall.increaseVelocity();
                 ballSpeedCounter = 0;
             }
@@ -214,6 +227,10 @@ class PongGame extends SurfaceView implements Runnable {
         // Has the ball hit the edge of the screen
         // Bottom
         if(mBall.getRect().bottom > mScreenY){
+
+            mBall.getRect().top = mScreenY - mScreenX / 100 - 1;
+            mBall.getRect().bottom = mScreenY - 1;
+
             mBall.reverseYVelocity();
             mLives--;
             //mSP.play(mMissID, 1, 1, 0, 0, 1);
@@ -224,14 +241,23 @@ class PongGame extends SurfaceView implements Runnable {
         }
         // Top
         if(mBall.getRect().top < 1){
+            mBall.getRect().top = 1;
+            mBall.getRect().bottom = mScreenX / 100 + 1;
+
             mBall.reverseYVelocity();
         }
         // Left
         if(mBall.getRect().left < 1){
+            mBall.getRect().left = 1;
+            mBall.getRect().right = mScreenX / 100 + 1;
+
             mBall.reverseXVelocity();
         }
         // Right
         if(mBall.getRect().right > mScreenX){
+            mBall.getRect().left = mScreenX - mScreenX / 100 - 1;
+            mBall.getRect().right = mScreenX - 1;
+
             mBall.reverseXVelocity();
         }
     }
