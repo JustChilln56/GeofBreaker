@@ -11,7 +11,6 @@ import android.graphics.RectF;
 public class Block {
     private RectF rect;
     private boolean isVisible, geofStart;
-    private Bitmap bitmap;
     private int row, col, width, height, padding, geofTicker;
     private Paint paint;
     private String type;
@@ -27,8 +26,6 @@ public class Block {
         paint = new Paint();
         geofTicker = -5;
 
-        bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.geof);
-
         if (Math.random() * 100 <= 10) {
             type = "large";
             paint.setColor(Color.argb(255,  253, 253, 150));
@@ -37,9 +34,6 @@ public class Block {
             type = "nothing";
             paint.setColor(Color.argb(255,  249, 129, 0));
         }
-
-        //else if (Math.random() * 100 <= 10) {
-        //type = "huge";
 
         rect = new RectF(col * width + padding, row * height +padding,
                 col * width + width - padding,
@@ -50,7 +44,7 @@ public class Block {
         if (isVisible) {
             canvas.drawRect(rect, paint);
         } else if (geofStart) {
-            canvas.drawBitmap(bitmap, null, rect, null);
+            canvas.drawBitmap(PongGame.bitmap, null, rect, null);
             rect.top = rect.top + 2*geofTicker;
             rect.bottom = rect.bottom + 2*geofTicker;
             if (geofTicker > 60 ) {

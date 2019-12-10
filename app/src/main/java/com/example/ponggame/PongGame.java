@@ -28,6 +28,8 @@ class PongGame extends SurfaceView implements Runnable {
     private Paint mPaint;
     // FPS
     private long mFPS;
+
+    public static Bitmap bitmap;
     // The number of milliseconds in a second
     private final int MILLIS_IN_SECOND = 1000;
     // resolution of the screen
@@ -60,6 +62,7 @@ class PongGame extends SurfaceView implements Runnable {
     public PongGame(Context context, int x, int y) {
         super(context);
 
+        bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.geof);
         //Initialize the array of blocks called mBlocks
         mBlock = new ArrayList<Block>();
 
