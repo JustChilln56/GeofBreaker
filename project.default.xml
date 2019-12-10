@@ -1,0 +1,142 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CheckStyle-IDEA">
+        <option name="configuration">
+          <map>
+            <entry key="checkstyle-version" value="8.24" />
+            <entry key="copy-libs" value="true" />
+            <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+            <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+            <entry key="scan-before-checkin" value="false" />
+            <entry key="scanscope" value="JavaOnly" />
+            <entry key="suppress-errors" value="false" />
+          </map>
+        </option>
+      </component>
+      <component name="Git.Settings">
+        <option name="ROOT_SYNC" value="DONT_SYNC" />
+      </component>
+      <component name="ProjectCodeStyleConfiguration">
+        <code_scheme name="Project" version="173">
+          <codeStyleSettings language="XML">
+            <indentOptions>
+              <option name="CONTINUATION_INDENT_SIZE" value="4" />
+            </indentOptions>
+            <arrangement>
+              <rules>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>xmlns:android</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>xmlns:.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>BY_NAME</order>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*:id</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*:name</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>name</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>style</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>^$</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>BY_NAME</order>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>ANDROID_ATTRIBUTE_ORDER</order>
+                  </rule>
+                </section>
+                <section>
+                  <rule>
+                    <match>
+                      <AND>
+                        <NAME>.*</NAME>
+                        <XML_ATTRIBUTE />
+                        <XML_NAMESPACE>.*</XML_NAMESPACE>
+                      </AND>
+                    </match>
+                    <order>BY_NAME</order>
+                  </rule>
+                </section>
+              </rules>
+            </arrangement>
+          </codeStyleSettings>
+        </code_scheme>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+        <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
