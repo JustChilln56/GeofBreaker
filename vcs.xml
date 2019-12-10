@@ -34,6 +34,14 @@
           <option name="url" value="https://github.com/awidiyadew/LeaderBoard.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="ss85@illinois.edu" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/JustChilln56/GeofBreaker.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\13146\AndroidStudioProjects" />
