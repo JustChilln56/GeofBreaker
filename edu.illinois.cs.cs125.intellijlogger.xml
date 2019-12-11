@@ -6,35 +6,36 @@
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="index" value="19809" />
+          <option name="index" value="19975" />
           <option name="intelliJVersion" value="3.5.2.0" />
           <option name="name" value="Fall2019.MP" />
-          <option name="previousIndex" value="19808" />
-          <option name="start" value="1576096233920" />
+          <option name="previousIndex" value="19974" />
+          <option name="start" value="1576098014111" />
           <option name="version" value="2019.9.3.191" />
         </Counter>
       </list>
     </option>
-    <option name="counterIndex" value="19810" />
-    <option name="lastSave" value="1576096384796" />
+    <option name="counterIndex" value="19976" />
+    <option name="lastSave" value="1576098042412" />
     <option name="savedCounters">
       <list>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
-          <option name="caretPositionChangedCount" value="4" />
+          <option name="caretPositionChangedCount" value="17" />
           <option name="closed" value="false" />
-          <option name="documentChangedCount" value="24" />
+          <option name="documentChangedCount" value="3" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096138913" />
-          <option name="index" value="19800" />
+          <option name="end" value="1576097939102" />
+          <option name="index" value="19959" />
           <option name="intelliJVersion" value="3.5.2.0" />
-          <option name="mouseActivityCount" value="4" />
+          <option name="mouseActivityCount" value="3" />
+          <option name="mousePressedCount" value="2" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="207" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -42,7 +43,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="556" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -63,75 +64,29 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19799" />
-          <option name="start" value="1576096133912" />
+          <option name="previousIndex" value="19958" />
+          <option name="selectionChangedCount" value="69" />
+          <option name="start" value="1576097934102" />
           <option name="version" value="2019.9.3.191" />
-          <option name="visibleAreaChangedCount" value="21" />
+          <option name="visibleAreaChangedCount" value="4" />
         </Counter>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
-          <option name="caretPositionChangedCount" value="5" />
+          <option name="caretPositionChangedCount" value="3" />
           <option name="closed" value="false" />
-          <option name="documentChangedCount" value="6" />
+          <option name="documentChangedCount" value="3" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096143913" />
-          <option name="index" value="19801" />
+          <option name="end" value="1576097944103" />
+          <option name="index" value="19960" />
           <option name="intelliJVersion" value="3.5.2.0" />
-          <option name="name" value="Fall2019.MP" />
-          <option name="openFileCount" value="7" />
-          <option name="openFiles">
-            <list>
-              <FileInfo>
-                <option name="lineCount" value="207" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
-              </FileInfo>
-              <FileInfo>
-                <option name="lineCount" value="64" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
-              </FileInfo>
-              <FileInfo>
-                <option name="lineCount" value="555" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
-              </FileInfo>
-              <FileInfo>
-                <option name="lineCount" value="144" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
-              </FileInfo>
-              <FileInfo>
-                <option name="lineCount" value="9" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
-              </FileInfo>
-              <FileInfo>
-                <option name="lineCount" value="432" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
-              </FileInfo>
-              <FileInfo>
-                <option name="lineCount" value="120" />
-                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
-              </FileInfo>
-            </list>
-          </option>
-          <option name="previousIndex" value="19800" />
-          <option name="start" value="1576096138913" />
-          <option name="version" value="2019.9.3.191" />
-          <option name="visibleAreaChangedCount" value="30" />
-        </Counter>
-        <Counter>
-          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
-          <option name="caretPositionChangedCount" value="9" />
-          <option name="closed" value="false" />
-          <option name="documentChangedCount" value="2" />
-          <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096148913" />
-          <option name="index" value="19802" />
-          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="mouseActivityCount" value="2" />
           <option name="mousePressedCount" value="1" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="207" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -139,7 +94,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -160,27 +115,24 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19801" />
-          <option name="selectionChangedCount" value="37" />
-          <option name="start" value="1576096143913" />
+          <option name="previousIndex" value="19959" />
+          <option name="start" value="1576097939102" />
           <option name="version" value="2019.9.3.191" />
-          <option name="visibleAreaChangedCount" value="18" />
+          <option name="visibleAreaChangedCount" value="7" />
         </Counter>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
-          <option name="caretPositionChangedCount" value="4" />
           <option name="closed" value="false" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096153914" />
-          <option name="index" value="19803" />
+          <option name="end" value="1576097949103" />
+          <option name="index" value="19961" />
           <option name="intelliJVersion" value="3.5.2.0" />
-          <option name="mouseActivityCount" value="1" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="207" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -188,7 +140,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -209,9 +161,290 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19802" />
-          <option name="selectionChangedCount" value="35" />
-          <option name="start" value="1576096148913" />
+          <option name="previousIndex" value="19960" />
+          <option name="start" value="1576097944103" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="2" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="closed" value="false" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576097954104" />
+          <option name="index" value="19962" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19961" />
+          <option name="start" value="1576097949103" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="2" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="closed" value="false" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576097959104" />
+          <option name="index" value="19963" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19962" />
+          <option name="start" value="1576097954104" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="6" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="closed" value="false" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576097964105" />
+          <option name="index" value="19964" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19963" />
+          <option name="start" value="1576097959104" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="15" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="closed" value="false" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576097969106" />
+          <option name="index" value="19965" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19964" />
+          <option name="start" value="1576097964105" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="3" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="closed" value="false" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576097974106" />
+          <option name="index" value="19966" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="mouseActivityCount" value="2" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19965" />
+          <option name="start" value="1576097969106" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="2" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="caretPositionChangedCount" value="3" />
+          <option name="closed" value="false" />
+          <option name="documentChangedCount" value="1" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576097979107" />
+          <option name="index" value="19967" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="keystrokeCount" value="1" />
+          <option name="mouseActivityCount" value="6" />
+          <option name="mousePressedCount" value="2" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19966" />
+          <option name="start" value="1576097974106" />
           <option name="version" value="2019.9.3.191" />
         </Counter>
         <Counter>
@@ -220,15 +453,16 @@
           <option name="closed" value="false" />
           <option name="documentChangedCount" value="3" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096163914" />
-          <option name="index" value="19804" />
+          <option name="end" value="1576097984108" />
+          <option name="index" value="19968" />
           <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="keystrokeCount" value="3" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="207" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -236,7 +470,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -257,40 +491,27 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19803" />
-          <option name="start" value="1576096153914" />
-          <option name="testCounts">
-            <map>
-              <entry key="Checkpoint1Test_testAreaModeGameplay">
-                <value>
-                  <TestCounter>
-                    <option name="passed" value="1" />
-                  </TestCounter>
-                </value>
-              </entry>
-            </map>
-          </option>
-          <option name="totalTestCount" value="1" />
+          <option name="previousIndex" value="19967" />
+          <option name="start" value="1576097979107" />
           <option name="version" value="2019.9.3.191" />
-          <option name="visibleAreaChangedCount" value="15" />
         </Counter>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
-          <option name="caretPositionChangedCount" value="1" />
+          <option name="caretPositionChangedCount" value="8" />
           <option name="closed" value="false" />
-          <option name="documentChangedCount" value="5" />
+          <option name="documentChangedCount" value="9" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096168915" />
-          <option name="index" value="19805" />
+          <option name="end" value="1576097989108" />
+          <option name="index" value="19969" />
           <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="keystrokeCount" value="8" />
           <option name="mouseActivityCount" value="2" />
-          <option name="mousePressedCount" value="1" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="205" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -298,7 +519,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -319,25 +540,26 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19804" />
-          <option name="selectionChangedCount" value="1" />
-          <option name="start" value="1576096163914" />
+          <option name="previousIndex" value="19968" />
+          <option name="start" value="1576097984108" />
           <option name="version" value="2019.9.3.191" />
-          <option name="visibleAreaChangedCount" value="13" />
         </Counter>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="caretPositionChangedCount" value="11" />
           <option name="closed" value="false" />
+          <option name="documentChangedCount" value="12" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096173915" />
-          <option name="index" value="19806" />
+          <option name="end" value="1576097994108" />
+          <option name="index" value="19970" />
           <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="keystrokeCount" value="7" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="205" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -345,7 +567,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -366,29 +588,75 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19805" />
-          <option name="start" value="1576096168915" />
+          <option name="previousIndex" value="19969" />
+          <option name="start" value="1576097989108" />
           <option name="version" value="2019.9.3.191" />
-          <option name="visibleAreaChangedCount" value="1" />
         </Counter>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
-          <option name="caretPositionChangedCount" value="2" />
+          <option name="caretPositionChangedCount" value="11" />
           <option name="closed" value="false" />
-          <option name="documentChangedCount" value="2" />
+          <option name="documentChangedCount" value="11" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096228920" />
-          <option name="index" value="19807" />
+          <option name="end" value="1576097999109" />
+          <option name="index" value="19971" />
           <option name="intelliJVersion" value="3.5.2.0" />
-          <option name="keystrokeCount" value="1" />
+          <option name="keystrokeCount" value="7" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19970" />
+          <option name="start" value="1576097994108" />
+          <option name="version" value="2019.9.3.191" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="caretPositionChangedCount" value="3" />
+          <option name="closed" value="false" />
+          <option name="documentChangedCount" value="3" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576098004109" />
+          <option name="index" value="19972" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="keystrokeCount" value="3" />
           <option name="mouseActivityCount" value="2" />
-          <option name="mousePressedCount" value="1" />
           <option name="name" value="Fall2019.MP" />
           <option name="openFileCount" value="7" />
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="205" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -396,7 +664,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -417,16 +685,16 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19806" />
-          <option name="start" value="1576096173915" />
+          <option name="previousIndex" value="19971" />
+          <option name="start" value="1576097999109" />
           <option name="version" value="2019.9.3.191" />
         </Counter>
         <Counter>
           <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
           <option name="closed" value="false" />
           <option name="email" value="ss85@illinois.edu" />
-          <option name="end" value="1576096233920" />
-          <option name="index" value="19808" />
+          <option name="end" value="1576098009110" />
+          <option name="index" value="19973" />
           <option name="intelliJVersion" value="3.5.2.0" />
           <option name="mouseActivityCount" value="3" />
           <option name="name" value="Fall2019.MP" />
@@ -434,7 +702,7 @@
           <option name="openFiles">
             <list>
               <FileInfo>
-                <option name="lineCount" value="205" />
+                <option name="lineCount" value="189" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
               </FileInfo>
               <FileInfo>
@@ -442,7 +710,7 @@
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
               </FileInfo>
               <FileInfo>
-                <option name="lineCount" value="555" />
+                <option name="lineCount" value="557" />
                 <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
               </FileInfo>
               <FileInfo>
@@ -463,8 +731,57 @@
               </FileInfo>
             </list>
           </option>
-          <option name="previousIndex" value="19807" />
-          <option name="start" value="1576096228920" />
+          <option name="previousIndex" value="19972" />
+          <option name="start" value="1576098004109" />
+          <option name="version" value="2019.9.3.191" />
+          <option name="visibleAreaChangedCount" value="7" />
+        </Counter>
+        <Counter>
+          <option name="UUID" value="d2508491-d2c9-4616-a548-e6187c7003aa" />
+          <option name="caretPositionChangedCount" value="1" />
+          <option name="closed" value="false" />
+          <option name="email" value="ss85@illinois.edu" />
+          <option name="end" value="1576098014111" />
+          <option name="index" value="19974" />
+          <option name="intelliJVersion" value="3.5.2.0" />
+          <option name="mouseActivityCount" value="5" />
+          <option name="mousePressedCount" value="1" />
+          <option name="name" value="Fall2019.MP" />
+          <option name="openFileCount" value="7" />
+          <option name="openFiles">
+            <list>
+              <FileInfo>
+                <option name="lineCount" value="189" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaDivider.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="64" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/res/layout/activity_game.xml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="557" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/GameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="144" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/TargetVisitChecker.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="9" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/grade.yaml" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="432" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/NewGameActivity.java" />
+              </FileInfo>
+              <FileInfo>
+                <option name="lineCount" value="120" />
+                <option name="path" value="$USER_HOME$/AndroidStudioProjects/MP-Fall2019-JustChilln56/app/src/main/java/edu/illinois/cs/cs125/fall2019/mp/AreaGame.java" />
+              </FileInfo>
+            </list>
+          </option>
+          <option name="previousIndex" value="19973" />
+          <option name="start" value="1576098009110" />
           <option name="version" value="2019.9.3.191" />
         </Counter>
       </list>
