@@ -30,7 +30,7 @@ public class soundActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sound);
         image = (ImageView) findViewById(R.id.imageView);
-        image.setImageResource(R.drawable.cs125);
+        image.setImageResource(R.drawable.geofbreaker);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
