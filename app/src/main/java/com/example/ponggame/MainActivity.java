@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
         image = findViewById(R.id.imageView);
-        image.setImageResource(R.drawable.cs125);
+        image.setImageResource(R.drawable.geofbreaker);
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 

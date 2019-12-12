@@ -7,75 +7,80 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="133dp"
-        android:layout_height="97dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cs125" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="296dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="GeofBreaker"
-        android:textAlignment="center"
-        android:textColor="#980000"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/play2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            app:srcCompat="@drawable/geofbreaker" />
 
-    <Button
-        android:id="@+id/sound3"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
-        android:background="@drawable/rounded_button"
-        android:text="sound"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/play2"
-        app:layout_constraintEnd_toEndOf="@+id/textView1"
-        app:layout_constraintTop_toTopOf="@+id/play2" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="CS125 pong game"
+            android:textAlignment="center"
+            android:textColor="#980000"
+            android:textSize="30sp" />
 
-    <Button
-        android:id="@+id/play2"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="220dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:background="@drawable/rounded_button"
-        android:text="play"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/sound3"
-        app:layout_constraintStart_toStartOf="@+id/textView1"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/play2"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:text="play"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/leaderboard"
-        android:layout_width="175dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="275dp"
-        android:background="@drawable/rounded_button"
-        android:text="leaderboard"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView1"
-        app:layout_constraintStart_toStartOf="@+id/textView1"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/sound3"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="20dp"
+            android:text="sound"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/leaderboard"
+            android:layout_width="210dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button"
+            android:text="leaderboard"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/howtoplay"></ImageView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Press and hold left half of screen to move paddle left;\n Press and hold right half of screen to move paddle right"
+            android:textSize="14sp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
